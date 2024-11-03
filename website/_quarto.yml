@@ -1,0 +1,78 @@
+project:
+  type: website
+  output-dir: _output
+
+# website
+website:
+  # basics
+  title: "MailMe"
+  site-url: https://getmailme.com
+  repo-url: https://github.com/getmailme/website
+  description: "Automated technical assistance for non-technical employees via email."
+  favicon: purplelogo.png
+
+  # options
+  reader-mode: false
+  back-to-top-navigation: true
+  open-graph:
+    image: purplelogo.png
+  twitter-card:
+    image: purplelogo.png
+
+
+  # search
+  search:
+    location: navbar
+    type: overlay
+
+  # navbar
+  navbar:
+    logo: purplelogo.png
+    title: false
+    # background: "#f17f16" - orange
+    background: "#d08ae3"
+    left:
+      - text: "Demo"
+        href: demo.qmd
+      - text: "Services"
+        href: services.qmd
+      - text: "Web Tools"
+        menu: 
+          - text: Image Resizer
+            # href: tools/image-resizer.qmd
+            href: PLACEHOLDER.qmd
+          - text: Video to MP3
+            # href: tools/video-converter.qmd
+            href: PLACEHOLDER.qmd
+          - text: Audio Transcriber
+            # href: tools/audio-transcriber.qmd  
+            href: PLACEHOLDER.qmd
+    right:
+      - text: "About us"
+        href: about.qmd
+      - text: "Blog"
+        href: posts.qmd
+
+  # footer
+  page-footer:
+    border: false
+    center: "MailMe"
+    # background: "#b6b6b6"
+    # foreground: "#b6b6b6"
+    left:
+      - text: "Privacy Policy"
+        href: PrivPolicy.html
+      - text: "Terms of Service"
+        href: TOS.qmd
+    right:
+      - icon: github
+        href: https://github.com/getmailme/website
+
+# theme
+format:
+  html:
+    theme:
+      - bootstrap
+      - custom.scss
+    # Remove or comment out the backgroundcolor line if it exists
+    css: styles.css

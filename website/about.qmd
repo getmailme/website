@@ -1,0 +1,33 @@
+# About us
+
+## Our mission
+
+MailMe was founded in October of 2024 with a singular vision: to make email an effortlessly productive experience for everyone. In a world overflowing with information and tasks, we believe your inbox should help—not hinder—your workflow. With MailMe, we’re building an intuitive AI assistant that tackles the mundane, repetitive tasks, freeing up your time for what truly matters.
+
+## Our story
+
+MailMe began as a shared vision between two Rice University classmates, Cody and Dylan, who reconnected years after their undergraduate days. By 2023, both were deeply involved in the world of large language models (LLMs). Dylan was leading compute resources and financial strategy for Amazon’s AGI division, while Cody was at Voltron Data, creating tools to help users harness the power of LLMs with their data, and previously in Microsoft's Azure AI division, empowering developers to reach the future of AI through their MLOps journey.
+
+As they exchanged stories from their careers, Cody and Dylan recognized a gap in how AI was applied to everyday productivity tools, especially for non-technical users. Many advanced AI capabilities remained locked behind complex interfaces, out of reach for people who could benefit the most from them. Fueled by this insight and their shared entrepreneurial spark, Cody and Dylan created MailMe—a straightforward, powerful AI email assistant that enables users to get the most out of their inbox with minimal effort.
+
+## What we do
+
+MailMe brings powerful automation into your inbox. Our features empower users to:
+
+- **Parse and Summarize Data**: Attach a spreadsheet, and MailMe will process and summarize the information directly in your email.
+- **Negotiate and Schedule Meetings**: Our AI coordinates calendars across users, streamlining meeting setups and freeing you from back-and-forth emails.
+- **Automate Updates**: Configure MailMe to deliver daily or project-specific updates, keeping teams aligned effortlessly.
+
+## Meet the founders
+
+Cody and Dylan bring complementary backgrounds and a passion for pushing the boundaries of technology. Dylan spent the last few years at Amazon’s AGI division, managing compute resources and financial strategy, before deciding to pursue entrepreneurial ventures that put his ideas into action. Cody, with his technical expertise from Voltron Data, dbt Labs, and Microsoft's Azure AI organization, has been at the forefront of creating accessible AI tools for data professionals. Together, they aim to make the best of AI accessible to everyone, right from your inbox.
+
+Find [Dylan](https://www.linkedin.com/in/dylan-jones-710370118/) or [Cody](https://www.linkedin.com/in/codydkdc/) on LinkedIn
+
+## Our commitment
+
+We’re committed to evolving MailMe based on real feedback from users. This is just the beginning—we’re constantly working on new ways to enhance productivity and make AI an indispensable ally in your daily life.
+
+Join us as we redefine what your email can do. Welcome to the future of productivity with MailMe.
+
+Contact [the founders](mailto:founders@getmailme.com ) for more information.

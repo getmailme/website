@@ -1,0 +1,25 @@
+---
+title: "AI-powered digital assistants for every employee!"
+image: purplelogo.png
+about:
+  template: jolla
+  links:
+    - icon: pc-display-horizontal
+      text: Demo
+      href: demo.qmd
+    - icon: server
+      text: Services
+      href: services.qmd
+    - icon: file-person
+      text: About us
+      href: about.qmd
+    - icon: substack
+      text: Blog
+      href: posts.qmd
+---
+
+***Automated technical assistance for non-technical employees via email.***
+
+::: {.callout-warning title="Website under construction!"}
+Product launch coming soon! You can [read about our company's launch](posts/founding/index.qmd) in the meantime.
+:::

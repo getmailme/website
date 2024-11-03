@@ -1,0 +1,12 @@
+---
+title: "Blog"
+listing:
+  contents: posts
+  sort: "date desc"
+  image-placeholder: purplelogo.png
+  type: default
+  categories: true
+  sort-ui: true
+  filter-ui: true
+  feed: true
+---

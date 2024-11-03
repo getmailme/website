@@ -1,0 +1,64 @@
+---
+title: "Video to MP3 Converter"
+---
+
+::: {.container}
+::: {.tool-container}
+# Video to MP3 Converter {.mb-4}
+
+::: {#videoConvertForm .tool-form}
+::: {.mb-3}
+<label for="email" class="form-label">Email address</label>
+<input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+<div class="form-text">We'll send the converted MP3 to this address.</div>
+:::
+
+::: {.mb-3}
+<label for="videoUpload" class="form-label">Upload Video</label>
+<input type="file" class="form-control" id="videoUpload" accept="video/*" required>
+<div class="form-text">Supported formats: MP4, MOV, AVI, WMV</div>
+:::
+
+::: {.mb-3}
+<label for="quality" class="form-label">Audio Quality</label>
+<select class="form-select" id="quality" required>
+    <option value="">Choose audio quality...</option>
+    <option value="320">320 kbps (High)</option>
+    <option value="256">256 kbps (Good)</option>
+    <option value="192">192 kbps (Medium)</option>
+    <option value="128">128 kbps (Low)</option>
+</select>
+:::
+
+<button type="submit" class="btn btn-primary">Convert to MP3</button>
+:::
+:::
+:::
+
+<script>
+document.getElementById('videoConvertForm').addEventListener('submit', async function(e) {
+    e.preventDefault();
+    
+    const formData = new FormData();
+    formData.append('adminEmail', 'webtools@getmailme.com ');
+    formData.append('userEmail', document.getElementById('email').value);
+    formData.append('video', document.getElementById('videoUpload').files[0]);
+    formData.append('quality', document.getElementById('quality').value);
+
+    try {
+        const response = await fetch('/api/convert-video', {
+            method: 'POST',
+            body: formData
+        });
+        
+        if (response.ok) {
+            alert('Request submitted successfully! You will receive an email shortly.');
+        } else {
+            throw new Error('Failed to submit request');
+        }
+    } catch (error) {
+        console.error('Error:', error);
+        alert('Failed to submit request. Please try again later.');
+    }
+});
+</script>
