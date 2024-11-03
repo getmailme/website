@@ -1,6 +1,6 @@
 # MailMe website
 
-Code for https://netsky.ai. Public to use GitHub Pages for free hosting.
+Code for https://getmailme.com. Public to use GitHub Pages for free hosting.
 
 ## Setup
 
