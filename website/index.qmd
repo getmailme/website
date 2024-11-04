@@ -18,7 +18,7 @@ about:
       href: posts.qmd
 ---
 
-***Automated technical assistance for non-technical employees via email.***
+***Automated technical assistance for non-technical employees from the comfort of their email.***
 
 ::: {.callout-warning title="Website under construction!"}
 Product launch coming soon! You can [read about our company's launch](posts/founding/index.qmd) in the meantime.
