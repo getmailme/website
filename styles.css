@@ -109,8 +109,9 @@ select,
 .quarto-listing-sort .bi,
 .quarto-listing-filter .bi,
 .quarto-listing-view .bi {
-    color: #ffffff !important;
-    background-color: #1a1f3c !important;
+    color: #1a1f3c !important;
+    /* background-color: #1a1f3c !important; */
+    font-weight: 1em;
 }
 
 /* Style for the button containers */
