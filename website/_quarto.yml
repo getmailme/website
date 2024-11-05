@@ -65,6 +65,10 @@ website:
       - text: "Terms of Service"
         href: TOS.qmd
     right:
+      - icon: twitter
+        href: https://x.com/MailMeAI
+      - icon: Bluesky_Logo.svg
+        href: https://bsky.app/profile/mailmeai.bsky.social   
       - icon: github
         href: https://github.com/getmailme/website
 
