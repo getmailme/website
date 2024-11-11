@@ -52,6 +52,8 @@ website:
         href: about.qmd
       - text: "Blog"
         href: posts.qmd
+      - text: "Login"
+        href: https://app.getmailme.com
 
   # footer
   page-footer:
